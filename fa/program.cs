@@ -67,6 +67,8 @@ namespace fans
        d.Transitions['0'] = f;
        e.Transitions['1'] = e;
        e.Transitions['0'] = f;
+       f.Transitions['1'] = f;
+       f.Transitions['0'] = f;
     }
     public bool? Run(IEnumerable<char> s)
     {
